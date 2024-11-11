@@ -1,0 +1,42 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fabada;
+}
+
+button {
+    padding: 20px 50px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+button:first-child {
+    background-color: #09cc30;
+}
+
+button:first-child:hover {
+    background-color: #078420;
+}
+
+button:last-child {
+    background-color: #cc0909;
+}
+
+button:last-child:hover {
+    background-color: #640909;
+}
+
+p {
+    font-size: 100px;
+}
+
+div {
+    display: flex;
+    gap: 20px;
+}
